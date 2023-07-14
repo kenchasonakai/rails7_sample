@@ -1,24 +1,15 @@
-# README
+## rails new command
+```
+dc run --rm web rails new . -d=postgresql -j=esbuild -c=sass
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## rails new option
 
-Things you may want to cover:
+### -d=postgresql
+select postgres
 
-* Ruby version
+### -j=esbuild
+select esbuild
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### -c=sass
+select sass
